@@ -1,0 +1,23 @@
+
+/* Styles for applying to the brand name in navbar of portfolio */
+.navbar-brand {
+    display: flex;
+    flex-direction: column;
+    font-size: unset;
+    font-style: italic;
+}
+
+.navbar-brand img {
+    width: 3.5em;
+    height: 3em;
+}
+
+/* Aligning all the links to the right in the navbar for medium/larger screens. */
+#navbarSupportedContent {
+    justify-content: end;
+}
+
+/* The dropdown list items (from the hamburger menu) in smaller screens are aligned to the center of the page. */
+.navbar-nav {
+    align-items: center;
+}
