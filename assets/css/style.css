@@ -1,3 +1,11 @@
+/* Text */
+h1, h2, h3 , h4, h5, h6 {
+    font-family: 'Anton', sans-serif;
+}
+
+p {
+    font-family: 'Jura', sans-serif;
+}
 
 /* Styles for applying to the brand name in navbar of portfolio */
 .navbar-brand {
@@ -13,11 +21,34 @@
 }
 
 /* Aligning all the links to the right in the navbar for medium/larger screens. */
-#navbarSupportedContent {
+#navbarNavAltMarkup {
     justify-content: end;
 }
 
-/* The dropdown list items (from the hamburger menu) in smaller screens are aligned to the center of the page. */
+/* The dropdown list items (from the hamburger menu) in smaller screens are aligned to the end of the page. */
 .navbar-nav {
+    align-items: flex-end;
+}
+
+#profilePicture {
+    border-radius: 60px;
+    width: 150px;
+    height: 200px;
+}
+
+.pictureContainer {
+    display: flex;
+    justify-content: center;
     align-items: center;
+}
+
+/* Slightly decreasing the font size of portfolio name */
+.display-4 {
+    font-size: 3rem;
+}
+
+.contentHeroBanner {
+    text-align: center;
+    width: 85%;
+    min-width: 500px;
 }
