@@ -53,10 +53,11 @@ p {
     /* min-width: 500px; */
 }
 
-/* To make any parent class to be a flex container and use it to center align items vertically */
+/* To make any parent class to be a flex container and use it to center the items */
 .flexClass {
     display: flex;
     align-items: center;
+    justify-content: center;
 }
 
 /* Making the height of the image relative to fit in the container */
