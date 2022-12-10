@@ -57,3 +57,12 @@ p {
 .card-img-top {
     height: 15rem;
 }
+
+/* Styles customised for the Skills section */
+#skills-spacing {
+    background-color: blue;
+}
+
+.list-group-item {
+    text-align: center;
+}
