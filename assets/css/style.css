@@ -48,9 +48,15 @@ p {
 }
 
 .contentHeroBanner {
-    text-align: center;
+    /* text-align: center; */
     width: 85%;
-    min-width: 500px;
+    /* min-width: 500px; */
+}
+
+/* To make any parent class to be a flex container and use it to center align items vertically */
+.flexClass {
+    display: flex;
+    align-items: center;
 }
 
 /* Making the height of the image relative to fit in the container */
@@ -63,9 +69,7 @@ p {
     background-color: blue;
 }
 
-.list-group-item {
-    text-align: center;
-}
+/* Styles for the About me and the Contact section */
 
 /* Styling the footer section */
 footer {
