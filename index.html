@@ -28,10 +28,10 @@
         </button>
         <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
           <div class="navbar-nav">
-            <a class="nav-item nav-link active" href="#">Work <span class="sr-only">(current)</span></a>
-            <a class="nav-item nav-link active" href="#">Skills</a>
-            <a class="nav-item nav-link active" href="#">About Me</a>
-            <a class="nav-item nav-link active" href="#">Contact</a>
+            <a class="nav-item nav-link active" href="#workSection">Work <span class="sr-only">(current)</span></a>
+            <a class="nav-item nav-link active" href="#skillSection">Skills</a>
+            <a class="nav-item nav-link active" href="#aboutSection">About Me</a>
+            <a class="nav-item nav-link active" href="#contactSection">Contact</a>
           </div>
         </div>
       </nav>
@@ -48,8 +48,8 @@
               <div class="jumbotron contentHeroBanner text-center">
                 <h1 class="display-4">Jayashree Karthikeyan</h1>
                 <p class="lead">Welcome to my Web Portfolio! Follow the below links to learn more.</p>
-                <a class="btn btn-primary btn-md" href="#" role="button">About Me</a>
-                <a class="btn btn-primary btn-md" href="#" role="button">Skills</a>
+                <a class="btn btn-primary btn-md" href="#aboutSection" role="button">About Me</a>
+                <a class="btn btn-primary btn-md" href="#skillSection" role="button">Skills</a>
               </div>
             </div>
           </div>
@@ -58,7 +58,7 @@
       </div>
 
       <!-- This class is used to contain the work section of the portfolio -->
-      <section class="container-fluid mt-5">
+      <section id="workSection" class="container-fluid mt-5">
         <div class="row">
           <div class="col-md-2 col-lg-1 text-center bg-info flexClass">
             <h2>Work</h2>
@@ -76,7 +76,7 @@
                     <div class="card-body">
                       <h5 class="card-title">Study Guide Website</h5>
                       <p class="card-text">This website contains the study guide that is very useful for studying the basics of HTML and CSS. It contains only basic structure and styling.</p>
-                      <a href="#" class="btn btn-primary">Prework Study Guide</a>
+                      <a href="https://jayapk21.github.io/prework-study-guide/" class="btn btn-primary">Prework Study Guide</a>
                     </div>
                   </div>
 
@@ -89,7 +89,7 @@
                     <div class="card-body">
                       <h5 class="card-title">CSS Snippet Website</h5>
                       <p class="card-text">It contains useful code snippets for CSS which can be very useful while developing websites. Some animations on hover effects have beens used for each snippet.</p>
-                      <a href="#" class="btn btn-primary">CSS Snippets</a>
+                      <a href="https://jayapk21.github.io/css-snippet-project-repo/" class="btn btn-primary">CSS Snippets</a>
                     </div>
                   </div>
 
@@ -158,7 +158,7 @@
       </section>
 
       <!-- This class is used to contain the skills section of the portfolio -->
-      <section class="container mb-5 mt-5">
+      <section id="skillSection" class="container mb-5 mt-5">
         <div class="row">
           <div id="skills-spacing" class="col-md-2">
 
@@ -180,19 +180,19 @@
       </section>
 
       <!-- This class is used to contain the About me and Contact section of the portfolio -->
-      <section class="container mb-5">
+      <section id="aboutSection" class="container mb-5">
         <div class="row">
           <div class="cardContainer col-md-6">
             <div class="card text-center" style="width: 18rem;">
               <div class="card-body">
                 <h5 class="card-title">About Me</h5>
                 <p class="card-text">I have enrolled in a bootcamp to learn Front end Development. Web designing has always been of interest to me for a very long time. I also like to do problem solving. To showcase my work as I progress in the bootcamp, I have designed this website for everyone to see. You can view my work by following the link below. </p>
-                <a href="#" class="card-link">Work Section</a>
+                <a href="#workSection" class="card-link">Work Section</a>
               </div>
             </div>
           </div>
 
-          <div class="cardContainer col-md-6">
+          <div id="contactSection" class="cardContainer col-md-6">
             <div class="card text-center mt-4" style="width: 18rem;">
               <div class="card-header">
                 Contact
@@ -209,10 +209,9 @@
       <!-- Following is the footer section of the portfolio page -->
       <footer>
         <div class="container">
-
-          <a href="#"><i class="fa fa-linkedin-square footerButton" style="font-size:36px;color: #0000b7"></i></a>
-          <a href="#"><i class="fa fa-github-square footerButton" style="font-size:36px;color: #0000b7;"></i></a>
-          <a class="btn btn-primary footerButton" href="#" role="button">Resume</a>
+          <a href="https://www.linkedin.com/in/jayashree-karthikeyan-35089622/"><i class="fa fa-linkedin-square footerButton" style="font-size:36px;color: #0000b7"></i></a>
+          <a href="https://github.com/JayaPK21"><i class="fa fa-github-square footerButton" style="font-size:36px;color: #0000b7;"></i></a>
+          <a class="btn btn-primary footerButton" href="assets/documents/Jayashree Karthikeyan.docx" role="button">Resume</a>
 
         </div>
       </footer>
