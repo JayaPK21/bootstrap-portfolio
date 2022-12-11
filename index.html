@@ -19,7 +19,7 @@
     <body>
 
       <!-- Changed the navbar menu to expand at medium size screen instead of large size screens. -->
-      <nav class="navbar navbar-expand-md navbar-light bg-light">
+      <nav class="navbar navbar-expand-md navbar-light">
         <a class="navbar-brand" href="#">
           <img src="assets/images/JKLogo.png" alt="JK designs Logo">Designs
         </a>
@@ -36,115 +36,119 @@
         </div>
       </nav>
 
-      <div class="jumbotron jumbotron-fluid">
-        <!-- This class is used to contain the brief details of the web designer -->
-        <div class="hero-banner container">
-          <div class="row">
-            <div class="col-lg-3 pictureContainer">
-              <img id="profilePicture" src="assets/images/profile-picture.jpg" alt="Profile picture of the designer">
+      <div class="pageWrapper pb-5">
+
+        <div class="jumbotron jumbotron-fluid hero-banner">
+          <!-- This class is used to contain the brief details of the web designer -->
+          <div class="container">
+            <div class="row">
+              <div class="col-lg-3 pictureContainer">
+                <img id="profilePicture" src="assets/images/profile-picture.jpg" alt="Profile picture of the designer">
+              </div>
+              
+              <div class="col-lg-9">
+                <div class="jumbotron contentHeroBanner text-center">
+                  <h1 class="display-4">Jayashree Karthikeyan</h1>
+                  <p class="lead">Welcome to my Web Portfolio! Follow the below links to learn more.</p>
+                  <a class="btn btn-primary btn-md" href="#aboutSection" role="button">About Me</a>
+                  <a class="btn btn-primary btn-md" href="#skillSection" role="button">Skills</a>
+                </div>
+              </div>
             </div>
             
-            <div class="col-lg-9">
-              <div class="jumbotron contentHeroBanner text-center">
-                <h1 class="display-4">Jayashree Karthikeyan</h1>
-                <p class="lead">Welcome to my Web Portfolio! Follow the below links to learn more.</p>
-                <a class="btn btn-primary btn-md" href="#aboutSection" role="button">About Me</a>
-                <a class="btn btn-primary btn-md" href="#skillSection" role="button">Skills</a>
-              </div>
-            </div>
           </div>
-          
         </div>
-      </div>
 
-      <!-- This class is used to contain the work section of the portfolio -->
-      <section id="workSection" class="container-fluid mt-5">
-        <div class="row">
-          <div class="col-md-2 col-lg-1 text-center bg-info flexClass">
-            <h2>Work</h2>
-          </div>
+        <!-- This class is used to contain the work section of the portfolio -->
+        <section id="workSection" class="container-fluid mt-5">
+          <div class="row">
+            <div class="col-md-2 col-lg-1 text-center bg-info flexClass">
+              <h2>Work</h2>
+            </div>
 
-          <div class="col-md-10 col-lg-11">
+            <div class="col-md-10 col-lg-11">
 
-            <!-- This section contains cards which links to all the development projects that has been created so far -->
-            <div class="container-fluid">
-              <div class="row mb-4">
-                <div class="cardContainer col-md-6 col-lg-4 mb-5">
+              <!-- This section contains cards which links to all the development projects that has been created so far -->
+              <div class="container-fluid">
+                <div class="row mb-4">
+                  <div class="cardContainer col-md-6 col-lg-4 mb-5">
 
-                  <div class="card" style="width: 18rem;">
-                    <img src="assets/images/prework-study-guide.png" class="card-img-top" alt="...">
-                    <div class="card-body">
-                      <h5 class="card-title">Study Guide Website</h5>
-                      <p class="card-text">This website contains the study guide that is very useful for studying the basics of HTML and CSS. It contains only basic structure and styling.</p>
-                      <a href="https://jayapk21.github.io/prework-study-guide/" class="btn btn-primary">Prework Study Guide</a>
+                    <div class="card" style="width: 18rem;">
+                      <img src="assets/images/prework-study-guide.png" class="card-img-top" alt="...">
+                      <div class="card-body">
+                        <h5 class="card-title">Study Guide Website</h5>
+                        <p class="card-text">This website contains the study guide that is very useful for studying the basics of HTML and CSS. It contains only basic structure and styling.</p>
+                        <a href="https://jayapk21.github.io/prework-study-guide/" class="btn btn-primary">Prework Study Guide</a>
+                      </div>
                     </div>
+
                   </div>
 
-                </div>
+                  <div class="cardContainer col-md-6 col-lg-4 mb-5">
 
-                <div class="cardContainer col-md-6 col-lg-4 mb-5">
-
-                  <div class="card" style="width: 18rem;">
-                    <img src="assets/images/css-snippet-project.png" class="card-img-top" alt="...">
-                    <div class="card-body">
-                      <h5 class="card-title">CSS Snippet Website</h5>
-                      <p class="card-text">It contains useful code snippets for CSS which can be very useful while developing websites. Some animations on hover effects have beens used for each snippet.</p>
-                      <a href="https://jayapk21.github.io/css-snippet-project-repo/" class="btn btn-primary">CSS Snippets</a>
+                    <div class="card" style="width: 18rem;">
+                      <img src="assets/images/css-snippet-project.png" class="card-img-top" alt="...">
+                      <div class="card-body">
+                        <h5 class="card-title">CSS Snippet Website</h5>
+                        <p class="card-text">It contains useful code snippets for CSS which can be very useful while developing websites. Some animations on hover effects have beens used for each snippet.</p>
+                        <a href="https://jayapk21.github.io/css-snippet-project-repo/" class="btn btn-primary">CSS Snippets</a>
+                      </div>
                     </div>
+
                   </div>
 
-                </div>
+                  <div class="cardContainer col-md-6 col-lg-4 mb-5">
 
-                <div class="cardContainer col-md-6 col-lg-4 mb-5">
+                    <div class="card" style="width: 18rem;">
+                      <img src="assets/images/02-portfolio-3.jpg" class="card-img-top" alt="...">
+                      <div class="card-body">
+                        <h5 class="card-title">Future Project</h5>
+                        <p class="card-text">As future projects are being developed, they will be posted here once they have been deployed.</p>
 
-                  <div class="card" style="width: 18rem;">
-                    <img src="assets/images/02-portfolio-3.jpg" class="card-img-top" alt="...">
-                    <div class="card-body">
-                      <h5 class="card-title">Future Project</h5>
-                      <p class="card-text">As future projects are being developed, they will be posted here once they have been deployed.</p>
-
-                      <!-- The placeholder is disabled and will be made active once the website is made available -->
-                      <a href="#" class="btn btn-primary disabled" aria-disabled="true">Website</a>
+                        <!-- The placeholder is disabled and will be made active once the website is made available -->
+                        <a href="#" class="btn btn-primary disabled" aria-disabled="true">Website</a>
+                      </div>
                     </div>
+
                   </div>
 
-                </div>
+                  <div class="cardContainer col-md-6 col-lg-4 mb-5">
 
-                <div class="cardContainer col-md-6 col-lg-4 mb-5">
-
-                  <div class="card" style="width: 18rem;">
-                    <img src="assets/images/02-portfolio-3.jpg" class="card-img-top" alt="...">
-                    <div class="card-body">
-                      <h5 class="card-title">Future Project</h5>
-                      <p class="card-text">As future projects are being developed, they will be posted here once they have been deployed.</p>
-                      <a href="#" class="btn btn-primary disabled" aria-disabled="true">Website</a>
+                    <div class="card" style="width: 18rem;">
+                      <img src="assets/images/02-portfolio-3.jpg" class="card-img-top" alt="...">
+                      <div class="card-body">
+                        <h5 class="card-title">Future Project</h5>
+                        <p class="card-text">As future projects are being developed, they will be posted here once they have been deployed.</p>
+                        <a href="#" class="btn btn-primary disabled" aria-disabled="true">Website</a>
+                      </div>
                     </div>
+
                   </div>
 
-                </div>
+                  <div class="cardContainer col-md-6 col-lg-4 mb-5">
 
-                <div class="cardContainer col-md-6 col-lg-4 mb-5">
-
-                  <div class="card" style="width: 18rem;">
-                    <img src="assets/images/02-portfolio-3.jpg" class="card-img-top" alt="...">
-                    <div class="card-body">
-                      <h5 class="card-title">Future Project</h5>
-                      <p class="card-text">As future projects are being developed, they will be posted here once they have been deployed.</p>
-                      <a href="#" class="btn btn-primary disabled" aria-disabled="true">Website</a>
+                    <div class="card" style="width: 18rem;">
+                      <img src="assets/images/02-portfolio-3.jpg" class="card-img-top" alt="...">
+                      <div class="card-body">
+                        <h5 class="card-title">Future Project</h5>
+                        <p class="card-text">As future projects are being developed, they will be posted here once they have been deployed.</p>
+                        <a href="#" class="btn btn-primary disabled" aria-disabled="true">Website</a>
+                      </div>
                     </div>
+
                   </div>
 
-                </div>
+                  <div class="cardContainer col-md-6 col-lg-4">
 
-                <div class="cardContainer col-md-6 col-lg-4">
-
-                  <div class="card" style="width: 18rem;">
-                    <img src="assets/images/02-portfolio-3.jpg" class="card-img-top" alt="...">
-                    <div class="card-body">
-                      <h5 class="card-title">Future Project</h5>
-                      <p class="card-text">As future projects are being developed, they will be posted here once they have been deployed.</p>
-                      <a href="#" class="btn btn-primary disabled" aria-disabled="true">Website</a>
+                    <div class="card" style="width: 18rem;">
+                      <img src="assets/images/02-portfolio-3.jpg" class="card-img-top" alt="...">
+                      <div class="card-body">
+                        <h5 class="card-title">Future Project</h5>
+                        <p class="card-text">As future projects are being developed, they will be posted here once they have been deployed.</p>
+                        <a href="#" class="btn btn-primary disabled" aria-disabled="true">Website</a>
+                      </div>
                     </div>
+
                   </div>
 
                 </div>
@@ -152,60 +156,59 @@
               </div>
 
             </div>
-
           </div>
-        </div>
-      </section>
+        </section>
 
-      <!-- This class is used to contain the skills section of the portfolio -->
-      <section id="skillSection" class="container mb-5 mt-5">
-        <div class="row">
-          <div id="skills-spacing" class="col-md-2">
+        <!-- This class is used to contain the skills section of the portfolio -->
+        <section id="skillSection" class="container mb-5 mt-5">
+          <div class="row">
+            <div id="skills-spacing" class="col-md-2">
 
-          </div>
-
-          <div class="col-md-8 text-center">
-            <h2>Skills Set</h2>
-            <ul class="list-group list-group-flush">
-              <li class="list-group-item">HTML</li>
-              <li class="list-group-item">CSS</li>
-              <li class="list-group-item">Bootstrap</li>
-              <li class="list-group-item">JavaScript</li>
-              <li class="list-group-item">React</li>
-            </ul>
-          </div>
-
-          <div id="skills-spacing" class="col-md-2"></div>
-        </div>
-      </section>
-
-      <!-- This class is used to contain the About me and Contact section of the portfolio -->
-      <section id="aboutSection" class="container mb-5">
-        <div class="row">
-          <div class="cardContainer col-md-6">
-            <div class="card text-center" style="width: 18rem;">
-              <div class="card-body">
-                <h5 class="card-title">About Me</h5>
-                <p class="card-text">I have enrolled in a bootcamp to learn Front end Development. Web designing has always been of interest to me for a very long time. I also like to do problem solving. To showcase my work as I progress in the bootcamp, I have designed this website for everyone to see. You can view my work by following the link below. </p>
-                <a href="#workSection" class="card-link">Work Section</a>
-              </div>
             </div>
-          </div>
 
-          <div id="contactSection" class="cardContainer col-md-6">
-            <div class="card text-center mt-4" style="width: 18rem;">
-              <div class="card-header">
-                Contact
-              </div>
+            <div class="col-md-8 text-center">
+              <h2>Skills Set</h2>
               <ul class="list-group list-group-flush">
-                <li class="list-group-item">07448935164</li>
-                <li class="list-group-item">jayapankarthik@gmail.com</li>
+                <li class="list-group-item">HTML</li>
+                <li class="list-group-item">CSS</li>
+                <li class="list-group-item">Bootstrap</li>
+                <li class="list-group-item">JavaScript</li>
+                <li class="list-group-item">React</li>
               </ul>
             </div>
-          </div>
-        </div>
-      </section>
 
+            <div id="skills-spacing" class="col-md-2"></div>
+          </div>
+        </section>
+
+        <!-- This class is used to contain the About me and Contact section of the portfolio -->
+        <section id="aboutSection" class="container">
+          <div class="row">
+            <div class="cardContainer col-md-6">
+              <div class="card text-center" style="width: 18rem;">
+                <div class="card-body">
+                  <h5 class="card-title">About Me</h5>
+                  <p class="card-text">I have enrolled in a bootcamp to learn Front end Development. Web designing has always been of interest to me for a very long time. I also like to do problem solving. To showcase my work as I progress in the bootcamp, I have designed this website for everyone to see. You can view my work by following the link below. </p>
+                  <a href="#workSection" class="card-link">Work Section</a>
+                </div>
+              </div>
+            </div>
+
+            <div id="contactSection" class="cardContainer col-md-6">
+              <div class="card text-center mt-4" style="width: 18rem;">
+                <div class="card-header">
+                  Contact
+                </div>
+                <ul class="list-group list-group-flush">
+                  <li class="list-group-item">07448935164</li>
+                  <li class="list-group-item">jayapankarthik@gmail.com</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </section>
+
+      </div>
       <!-- Following is the footer section of the portfolio page -->
       <footer>
         <div class="container">

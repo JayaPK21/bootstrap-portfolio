@@ -20,6 +20,10 @@ p {
     height: 3em;
 }
 
+.navbar {
+    background: repeating-linear-gradient(30deg, #2eb72e 0%, #1b761b 5%, #2eb72e 10%);
+}
+
 /* Aligning all the links to the right in the navbar for medium/larger screens. */
 #navbarNavAltMarkup {
     justify-content: end;
@@ -28,6 +32,34 @@ p {
 /* The dropdown list items (from the hamburger menu) in smaller screens are aligned to the end of the page. */
 .navbar-nav {
     align-items: flex-end;
+}
+
+.nav-item {
+    font-weight: bold;
+    font-size: larger;
+}
+
+/* Changing the background colour and giving a hover effect for all the nav items */
+.nav-item:hover {
+    background-color: #2eb72e;
+    padding: 15px;
+    border-radius: 10px;
+}
+
+/* This is to set the background colour for the whole hero banner and the page*/
+.pageWrapper{
+    background-color: #aedbae;
+}
+
+.hero-banner, .contentHeroBanner {
+    /* background-color: #239a23; */
+    background-color: #529352;
+}
+
+.contentHeroBanner {
+    /* text-align: center; */
+    width: 85%;
+    /* min-width: 500px; */
 }
 
 #profilePicture {
@@ -45,12 +77,6 @@ p {
 /* Slightly decreasing the font size of portfolio name */
 .display-4 {
     font-size: 3rem;
-}
-
-.contentHeroBanner {
-    /* text-align: center; */
-    width: 85%;
-    /* min-width: 500px; */
 }
 
 /* To make any parent class to be a flex container and use it to center the items */
