@@ -105,6 +105,11 @@ p {
     font-weight: bold;
 }
 
+/* This class is used to select the whole text in Contact section for each list item */
+.selectText {
+    user-select: all;
+}
+
 /* Styling the footer section */
 footer {
     background-color: darkcyan;
