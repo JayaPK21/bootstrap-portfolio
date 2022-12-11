@@ -1,3 +1,10 @@
+:root {
+    --navbar-bg-light-green: #2eb72e;
+    --navbar-bg-dark-green: #1b761b;
+    --main-page-bg: #aedbae;
+    --heading-bg: #529352;
+}
+
 /* Text */
 h1, h2, h3 , h4, h5, h6 {
     font-family: 'Anton', sans-serif;
@@ -21,7 +28,7 @@ p {
 }
 
 .navbar {
-    background: repeating-linear-gradient(30deg, #2eb72e 0%, #1b761b 5%, #2eb72e 10%);
+    background: repeating-linear-gradient(30deg, var(--navbar-bg-light-green) 0%, var(--navbar-bg-dark-green) 5%, var(--navbar-bg-light-green) 10%);
 }
 
 /* Aligning all the links to the right in the navbar for medium/larger screens. */
@@ -41,20 +48,20 @@ p {
 
 /* Changing the background colour and giving a hover effect for all the nav items */
 .nav-item:hover {
-    background-color: #2eb72e;
+    background-color: var(--navbar-bg-light-green);
     padding: 15px;
     border-radius: 10px;
 }
 
 /* This is to set the background colour for the whole hero banner and the page*/
 .pageWrapper{
-    background-color: #aedbae;
+    background-color: var(--main-page-bg);
 }
 
 .hero-banner, 
 .contentHeroBanner,
 .headingStyle{
-    background-color: #529352;
+    background-color: var(--heading-bg);
 }
 
 /* headingStyle class is used to style all the headings of different sections in the website */
