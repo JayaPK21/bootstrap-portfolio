@@ -51,15 +51,20 @@ p {
     background-color: #aedbae;
 }
 
-.hero-banner, .contentHeroBanner {
-    /* background-color: #239a23; */
+.hero-banner, 
+.contentHeroBanner,
+.headingStyle{
     background-color: #529352;
 }
 
+/* headingStyle class is used to style all the headings of different sections in the website */
+.headingStyle {
+    font-weight: bold;
+    font-size: x-large;
+}
+
 .contentHeroBanner {
-    /* text-align: center; */
     width: 85%;
-    /* min-width: 500px; */
 }
 
 #profilePicture {
@@ -92,8 +97,12 @@ p {
 }
 
 /* Styles customised for the Skills section */
-#skills-spacing {
-    background-color: blue;
+.skillsList .list-group-item:nth-child(even) {
+    background-color: #c8c8c8;
+}
+
+.skillsList {
+    font-weight: bold;
 }
 
 /* Styles for the About me and the Contact section */

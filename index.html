@@ -62,7 +62,7 @@
         <!-- This class is used to contain the work section of the portfolio -->
         <section id="workSection" class="container-fluid mt-5">
           <div class="row">
-            <div class="col-md-2 col-lg-1 text-center bg-info flexClass">
+            <div class="col-md-2 col-lg-1 text-center flexClass headingStyle">
               <h2>Work</h2>
             </div>
 
@@ -167,14 +167,19 @@
             </div>
 
             <div class="col-md-8 text-center">
-              <h2>Skills Set</h2>
-              <ul class="list-group list-group-flush">
+
+              <!-- Added classes for styling the heading of Skills section -->
+              <h2 class="headingStyle mb-0 p-4">Skills Set</h2>
+
+              <!-- .skillsList class is used to target all the list items and style them accordingly -->
+              <ul class="skillsList list-group list-group-flush">
                 <li class="list-group-item">HTML</li>
                 <li class="list-group-item">CSS</li>
                 <li class="list-group-item">Bootstrap</li>
                 <li class="list-group-item">JavaScript</li>
                 <li class="list-group-item">React</li>
               </ul>
+
             </div>
 
             <div id="skills-spacing" class="col-md-2"></div>
@@ -184,19 +189,20 @@
         <!-- This class is used to contain the About me and Contact section of the portfolio -->
         <section id="aboutSection" class="container">
           <div class="row">
+            <div class="col-md-1"></div>
             <div class="cardContainer col-md-6">
-              <div class="card text-center" style="width: 18rem;">
+              <div class="card text-center" style="width: 100%;">
                 <div class="card-body">
-                  <h5 class="card-title">About Me</h5>
+                  <h5 class="headingStyle p-2 card-title">About Me</h5>
                   <p class="card-text">I have enrolled in a bootcamp to learn Front end Development. Web designing has always been of interest to me for a very long time. I also like to do problem solving. To showcase my work as I progress in the bootcamp, I have designed this website for everyone to see. You can view my work by following the link below. </p>
                   <a href="#workSection" class="card-link">Work Section</a>
                 </div>
               </div>
             </div>
 
-            <div id="contactSection" class="cardContainer col-md-6">
-              <div class="card text-center mt-4" style="width: 18rem;">
-                <div class="card-header">
+            <div id="contactSection" class="cardContainer col-md-5">
+              <div class="card text-center mt-4" style="width: 100%;">
+                <div class="card-header headingStyle">
                   Contact
                 </div>
                 <ul class="list-group list-group-flush">
