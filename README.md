@@ -33,9 +33,21 @@ https://jayapk21.github.io/bootstrap-portfolio/
 
 When you go to the website it will look like the following image.
 
-![An image of full website in desktop screen.]()
+![An image of full website in desktop screen.](assets/screenshots/full-website-large-screen.png)
 
 
 Click on the navigation links below to go to different sections of the web page.
 
-![An image of the navigation links.]()
+![An image of the navigation links.](assets/screenshots/navigation-bar.png)
+
+The website looks like this picture on medium size screens.
+<br>
+<img src="assets/screenshots/full-website-medium-screen.png" alt="An image of website in medium size screens." width="200"/>
+
+The website looks like this picture on small size screens.
+<br>
+<img src="assets/screenshots/full-website-small-screen.png" alt="An image of website in small size screens" width="200"/>
+
+The expanded navigation links on small screens look like the following.
+
+![An image of the navigation links in small screens.](assets/screenshots/expanded-navigation-list.png)
