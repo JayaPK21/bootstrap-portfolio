@@ -133,3 +133,8 @@ footer .container {
     
     box-shadow: 5px 5px 10px rgba(17, 36, 36, 0.7);
 }
+
+/* This class increases the font size for text contained in the first project */
+.incFontSize {
+    font-size: 1.25em;
+}
